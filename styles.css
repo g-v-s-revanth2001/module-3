@@ -1,0 +1,63 @@
+body {
+    color: orange ;
+
+}
+.navbar-brand {
+    color: red;
+}
+#rank {
+    color:rgb(166, 255, 0);
+    font-size: large;
+    background-color: sandybrown;
+}
+.chicken,.beef,.sushi{
+    position:relative;
+    font-size: 45px;
+    color:burlywood;
+    
+}
+.container{
+    background-color: slateblue;
+}
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+}
+#navbar navbar-expand-lg navbar-light 
+{
+    color: slategray;
+}
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-bottom: 20px;
+}
+h2
+{
+    color:blue;
+    text-align: center;
+    font-size: 200em;
+}
+.navbar-toggler
+{
+    float: right;
+}
